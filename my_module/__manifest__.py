@@ -1,18 +1,20 @@
+### Estructura de un módulo Odoo para crear el impuesto RG 5329 ###
+
+# __manifest__.py
 {
-    'name': 'My Module',
+    'name': 'Impuesto Percepción RG 5329',
     'version': '1.0.0',
-    'summary': 'A clean Odoo module template.',
-    'author': 'Your Name',
-    'website': 'https://github.com/yourname',
-    'category': 'Tools',
-    'depends': ['base'],
+    'category': 'Accounting',
+    'summary': 'Crea el impuesto de percepción RG 5329 (AFIP)',
+    'author': 'Tu Nombre o Empresa',
+    'website': 'https://tusitio.com',
+    'license': 'LGPL-3',
+    'depends': ['account'],
     'data': [
-        'security/security.xml',
-        'security/ir.model.access.csv',
-        'views/my_model_views.xml',
-        'data/demo_data.xml',
+        'data/rg5329_tax.xml',
     ],
     'installable': True,
-    'application': True,
-    'license': 'LGPL-3',
+    'auto_install': False,
+    'application': False,
 }
+

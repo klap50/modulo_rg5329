@@ -1,4 +1,4 @@
-from odoo import models, fields, api
+from odoo import models, api
 
 class AccountMove(models.Model):
     _inherit = 'account.move'
@@ -9,7 +9,6 @@ class AccountMove(models.Model):
         tax = self.env.ref('rg5329_tax_module.tax_rg5329_pais_25', raise_if_not_found=False)
         if not tax:
             return
-
         total_tax = sum(line.price_total - line.price_subtotal for line in self.invoice_line_ids)
         for line in self.invoice_line_ids:
             if total_tax > threshold and line.product_id.apply_rg5329:

@@ -1,5 +1,5 @@
 {
-    "name": "Impuesto Percepción RG 5329",
+    "name": "rg5329_klap",
     "version": "1.0.0",
     "category": "Accounting",
     "summary": "Crea el impuesto de percepción RG 5329 (AFIP)",

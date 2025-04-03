@@ -11,7 +11,7 @@
     <!-- Impuesto de percepción RG 5329 (PAIS 25%) -->
     <record id="tax_rg5329_pais_25" model="account.tax">
       <field name="name">Percepción RG 5329 - PAIS 25%</field>
-      <field name="amount">25.0</field>
+      <field name="amount">3.0</field>
       <field name="amount_type">percent</field>
       <field name="type_tax_use">purchase</field>
       <field name="price_include">False</field>

@@ -1,3 +1,3 @@
-# Odoo Module Template
+# My Module
 
-A GitHub-ready template for building custom Odoo modules.
+Template for a custom Odoo module.

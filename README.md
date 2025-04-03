@@ -1,6 +1,4 @@
-# rg5329 impuesto ARGENTINA
-
-# Módulo Odoo: rg5329_klap
+# Módulo Odoo: rg5329_klap - rg5329 impuesto ARGENTINA
 
 ## 📌 Descripción
 
